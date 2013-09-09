@@ -10,5 +10,6 @@
 </h1>
 
 <P>  The time on the server is ${serverTime}. </P>
+go to <a href="test.do"> go to test</a>
 </body>
 </html>
