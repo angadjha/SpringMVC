@@ -63,7 +63,7 @@ public class ParticipateController {
     
     @RequestMapping(value ="/saveParticipate.do", method = RequestMethod.POST)
    	public String saveParticipate(@ModelAttribute("model") ModelMap model , HttpServletRequest request , HttpServletResponse response){
-   		List list = new ArrayList();
+   		/*List list = new ArrayList();
     	System.out.println("save participate is calling ");
    		String firstname = request.getParameter("firstname");
    		String lastname = request.getParameter("lastname");
@@ -85,7 +85,7 @@ public class ParticipateController {
    		participate.setU_country(country);
    		participate.setU_date_of_birth(dob);
    		list.add(participate);
-   		String id = null;
+   		String id = null;*/
    		/*id = participateService.saveParticipateData(participate);*/
    		
    		return "profile/successParticipate";	

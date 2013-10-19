@@ -1,5 +1,6 @@
 package net.codejava.springmvc.bean;
 
+
 public class Participate extends User{
 
 	private String p_team_name;
