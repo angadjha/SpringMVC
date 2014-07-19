@@ -6,20 +6,20 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Blog | Flat Theme</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/prettyPhoto.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/assets/css/prettyPhoto.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/assets/css/animate.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/assets/css/main.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->       
     <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="${pageContext.request.contextPath}/assets/img/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="${pageContext.request.contextPath}/assets/img/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="${pageContext.request.contextPath}/assets/img/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="${pageContext.request.contextPath}/assets/img/ico/apple-touch-icon-57-precomposed.png">
 </head><!--/head-->
 <body>
     <div id="fb-root"></div>
@@ -44,26 +44,26 @@
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about-us.html">About Us</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="index.do">Home</a></li>
+                    <li><a href="about-us.do">About Us</a></li>
+                    <li><a href="services.do">Services</a></li>
+                    <li><a href="portfolio.do">Portfolio</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
                         <ul class="dropdown-menu">
-                            <li><a href="career.html">Career</a></li>
-                            <li><a href="blog-item.html">Blog Single</a></li>
+                            <li><a href="career.do">Career</a></li>
+                            <li><a href="blog-item.do">Blog Single</a></li>
                             <li><a href="faq.html">FAQ</a></li>
-                            <li><a href="pricing.html">Pricing</a></li>
-                            <li><a href="404.html">404</a></li>
-                            <li><a href="registration.html">Registration</a></li>
+                            <li><a href="pricing.do">Pricing</a></li>
+                            <li><a href="404.do">404</a></li>
+                            <li><a href="registration.do">Registration</a></li>
                             <li class="divider"></li>
-                            <li><a href="privacy.html">Privacy Policy</a></li>
-                            <li><a href="terms.html">Terms of Use</a></li>
+                            <li><a href="privacy.do">Privacy Policy</a></li>
+                            <li><a href="terms.do">Terms of Use</a></li>
                         </ul>
                     </li>
-                    <li class="active"><a href="blog.html">Blog</a></li> 
-                    <li><a href="contact-us.html">Contact</a></li>
+                    <li class="active"><a href="blog.do">Blog</a></li> 
+                    <li><a href="contact-us.do">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -78,7 +78,7 @@
                 </div>
                 <div class="col-sm-6">
                     <ul class="breadcrumb pull-right">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.do">Home</a></li>
                         <li class="active">Blog</li>
                     </ul>
                 </div>
@@ -103,21 +103,21 @@
                 <div class="widget ads">
                     <div class="row">
                         <div class="col-xs-6">
-                            <a href="#"><img class="img-responsive img-rounded" src="images/ads/ad1.png" alt=""></a>
+                            <a href="#"><img class="img-responsive img-rounded" src="${pageContext.request.contextPath}/assets/img/ads/ad1.png" alt=""></a>
                         </div>
 
                         <div class="col-xs-6">
-                            <a href="#"><img class="img-responsive img-rounded" src="images/ads/ad2.png" alt=""></a>
+                            <a href="#"><img class="img-responsive img-rounded" src="${pageContext.request.contextPath}/assets/img/ads/ad2.png" alt=""></a>
                         </div>
                     </div>
                     <p> </p>
                     <div class="row">
                         <div class="col-xs-6">
-                            <a href="#"><img class="img-responsive img-rounded" src="images/ads/ad3.png" alt=""></a>
+                            <a href="#"><img class="img-responsive img-rounded" src="${pageContext.request.contextPath}/assets/img/ads/ad3.png" alt=""></a>
                         </div>
 
                         <div class="col-xs-6">
-                            <a href="#"><img class="img-responsive img-rounded" src="images/ads/ad4.png" alt=""></a>
+                            <a href="#"><img class="img-responsive img-rounded" src="${pageContext.request.contextPath}/assets/img/ads/ad4.png" alt=""></a>
                         </div>
                     </div>
                 </div><!--/.ads-->     
@@ -170,7 +170,7 @@
             <div class="col-sm-8 col-sm-pull-4">
                 <div class="blog">
                     <div class="blog-item">
-                        <img class="img-responsive img-blog" src="images/blog/blog1.jpg" width="100%" alt="" />
+                        <img class="img-responsive img-blog" src="${pageContext.request.contextPath}/assets/img/blog/blog1.jpg" width="100%" alt="" />
                         <div class="blog-content">
                             <a href="blog-item.html"><h3>Duis sed odio sit amet nibh vulputate cursus</h3></a>
                             <div class="entry-meta">
@@ -184,7 +184,7 @@
                         </div>
                     </div><!--/.blog-item-->
                     <div class="blog-item">
-                        <img class="img-responsive img-blog" src="images/blog/blog2.jpg" width="100%" alt="" />
+                        <img class="img-responsive img-blog" src="${pageContext.request.contextPath}/assets/img/blog/blog2.jpg" width="100%" alt="" />
                         <div class="blog-content">
                             <a href="blog-item.html"><h3>Conubia nostra per inceptos himenaeos</h3></a>
                             <div class="entry-meta">
@@ -194,7 +194,7 @@
                                 <span><i class="icon-comment"></i> <a href="blog-item.html#comments">0 Comment</a></span>
                             </div>
                             <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-                            <a class="btn btn-default" href="blog-item.html">Read More <i class="icon-angle-right"></i></a>
+                            <a class="btn btn-default" href="blog-item.do">Read More <i class="icon-angle-right"></i></a>
                         </div>
                     </div><!--/.blog-item-->
                     <ul class="pagination pagination-lg">
@@ -242,7 +242,7 @@
                     <div>
                         <div class="media">
                             <div class="pull-left">
-                                <img src="images/blog/thumb1.jpg" alt="">
+                                <img src="${pageContext.request.contextPath}/assets/img/blog/thumb1.jpg" alt="">
                             </div>
                             <div class="media-body">
                                 <span class="media-heading"><a href="#">Pellentesque habitant morbi tristique senectus</a></span>
@@ -251,7 +251,7 @@
                         </div>
                         <div class="media">
                             <div class="pull-left">
-                                <img src="images/blog/thumb2.jpg" alt="">
+                                <img src="${pageContext.request.contextPath}/assets/img/blog/thumb2.jpg" alt="">
                             </div>
                             <div class="media-body">
                                 <span class="media-heading"><a href="#">Pellentesque habitant morbi tristique senectus</a></span>
@@ -260,7 +260,7 @@
                         </div>
                         <div class="media">
                             <div class="pull-left">
-                                <img src="images/blog/thumb3.jpg" alt="">
+                                <img src="${pageContext.request.contextPath}/assets/img/blog/thumb3.jpg" alt="">
                             </div>
                             <div class="media-body">
                                 <span class="media-heading"><a href="#">Pellentesque habitant morbi tristique senectus</a></span>
@@ -311,9 +311,9 @@
         </div>
     </footer><!--/#footer-->
 
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/main.js"></script>
+    <script src="${pageContext.request.contextPath}/assets/js/jquery.js"></script>
+    <script src="${pageContext.request.contextPath}/assets/js/bootstrap.min.js"></script>
+    <script src="${pageContext.request.contextPath}/assets/js/jquery.prettyPhoto.js"></script>
+    <script src="${pageContext.request.contextPath}/assets/js/main.js"></script>
 </body>
 </html>

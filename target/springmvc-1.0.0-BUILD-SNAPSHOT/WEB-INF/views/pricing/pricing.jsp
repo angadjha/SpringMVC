@@ -31,30 +31,30 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                <a class="navbar-brand" href="index.do"><img src="images/logo.png" alt="logo"></a>
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about-us.html">About Us</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="index.do">Home</a></li>
+                    <li><a href="about-us.do">About Us</a></li>
+                    <li><a href="services.do">Services</a></li>
+                    <li><a href="portfolio.do">Portfolio</a></li>
                     <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
                         <ul class="dropdown-menu">
-                            <li><a href="career.html">Career</a></li>
-                            <li><a href="blog-item.html">Blog Single</a></li>
-                            <li><a href="faq.html">FAQ</a></li>
-                            <li class="active"><a href="pricing.html">Pricing</a></li>
-                            <li><a href="404.html">404</a></li>
-                            <li><a href="registration.html">Registration</a></li>
+                            <li><a href="career.do">Career</a></li>
+                            <li><a href="blog-item.do">Blog Single</a></li>
+                            <li><a href="faq.do">FAQ</a></li>
+                            <li class="active"><a href="pricing.do">Pricing</a></li>
+                            <li><a href="404.do">404</a></li>
+                            <li><a href="registration.do">Registration</a></li>
                             <li class="divider"></li>
-                            <li><a href="privacy.html">Privacy Policy</a></li>
-                            <li><a href="terms.html">Terms of Use</a></li>
+                            <li><a href="privacy.do">Privacy Policy</a></li>
+                            <li><a href="terms.do">Terms of Use</a></li>
                         </ul>
                     </li>
-                    <li><a href="blog.html">Blog</a></li> 
-                    <li><a href="contact-us.html">Contact</a></li>
+                    <li><a href="blog.do">Blog</a></li> 
+                    <li><a href="contact-us.do">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -69,7 +69,7 @@
                 </div>
                 <div class="col-sm-6">
                     <ul class="breadcrumb pull-right">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.do">Home</a></li>
                         <li><a href="#">Pages</a></li>
                         <li class="active">Pricing</li>
                     </ul>
